@@ -1,4 +1,5 @@
 # nlw-IA
+```pnpm run dev```
 ## [pnpm instalação:](https://pnpm.io/pt/installation)
 ```npm install -g pnpm```
 
@@ -47,5 +48,13 @@ export default defineConfig({
     },
   },
 })
+```
+***Intalação dos Componentes***
+*yes/new york/zinc   
+src/index.css/yes/enter/enter/enter/no/yes
+```pnpm dlx shadcn-ui@latest init
+```
+***Testar o funcionamento***
+```pnpm dlx shadcn-ui@latest add button
 ```
 
