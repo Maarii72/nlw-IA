@@ -1,8 +1,8 @@
 # nlw-IA
-## pnpm instalação:
+## [pnpm instalação:](https://pnpm.io/pt/installation)
 ```npm install -g pnpm```
 
-## [Vite](https://vitejs.dev/guide/)
+## [Vite:](https://vitejs.dev/guide/)
 ```pnpm create vite```  
 **Project name:** upload-ai-web  
 **Framework:** React  
