@@ -52,11 +52,11 @@ export default defineConfig({
 ***Intalação dos Componentes***
 *yes/new york/zinc   
 src/index.css/yes/enter/enter/enter/no/yes
-```pnpm dlx shadcn-ui@latest init
-```
+```pnpm dlx shadcn-ui@latest init```
+
 ***Testar o funcionamento***
-```pnpm dlx shadcn-ui@latest add button
-```
+```pnpm dlx shadcn-ui@latest add button```
+
 ***Biblioteca lucide***
 Diversos ícones
 ```pnpm i lucide-react```
