@@ -21,10 +21,10 @@ pnpm add -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
 ```
-***Edit tsconfig.json**
+***Edit tsconfig.json***
 Add the code below to the compilerOptions of your ```tsconfig.json``` so your app can resolve paths without error   
 Em compilerOptions:   
-Permite que todos os imports feitos com @ o arquivo está dentro da pasta src   
+Permite que todos os imports feitos com @ o arquivo está dentro da pasta ```src```   
 ```
   "baseUrl": ".",
   "paths": {
@@ -36,5 +36,16 @@ Permite que todos os imports feitos com @ o arquivo está dentro da pasta src
 ```
 pnpm i -D @types/node
 
+```
+***No ```vite.config.ts```***
+```
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+})
 ```
 
