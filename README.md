@@ -57,4 +57,23 @@ src/index.css/yes/enter/enter/enter/no/yes
 ***Testar o funcionamento***
 ```pnpm dlx shadcn-ui@latest add button
 ```
+***Biblioteca lucide***
+Diversos ícones
+```pnpm i lucide-react```
+
+***Componente separator do shadcn***
+Para separar as sessões
+```pnpm dlx shadcn-ui@latest add separator```
+
+***Componente textarea***
+```pnpm dlx shadcn-ui@latest add textarea```
+
+***Componente label***
+```pnpm dlx shadcn-ui@latest add label```
+
+***Componente select***
+```pnpm dlx shadcn-ui@latest add select```
+
+***Componente slider***
+```pnpm dlx shadcn-ui@latest add slider```
 
