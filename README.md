@@ -49,7 +49,7 @@ export default defineConfig({
   },
 })
 ```
-***Intalação dos Componentes***
+***Instalação dos Componentes***
 *yes/new york/zinc   
 src/index.css/yes/enter/enter/enter/no/yes
 ```pnpm dlx shadcn-ui@latest init```
@@ -76,4 +76,18 @@ Para separar as sessões
 
 ***Componente slider***
 ```pnpm dlx shadcn-ui@latest add slider```
+
+## Estrutura do Projeto Node
+```mkdir upload-ai-server```
+```pnpm init```
+
+### Dependências de desenvolvimento:
+```pnpm i typescript @types/node tsx -D```
+```pnpm i prisma -D    pnpm prisma init --datasource-provider sqlite   pnpm prisma migrate dev
+```
+visualizar no BD ```pnpm prisma studio```
+
+### Dependências de Produção: 
+Rotas HTTP
+```pnpm i fastify```
 
