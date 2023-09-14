@@ -83,8 +83,7 @@ Para separar as sessões
 
 ### Dependências de desenvolvimento:
 ```pnpm i typescript @types/node tsx -D```
-```pnpm i prisma -D    pnpm prisma init --datasource-provider sqlite   pnpm prisma migrate dev
-```
+```pnpm i prisma -D```   ```pnpm prisma init --datasource-provider sqlite```   ```pnpm prisma migrate dev```
 visualizar no BD ```pnpm prisma studio```
 
 ### Dependências de Produção: 
