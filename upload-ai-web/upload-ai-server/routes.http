@@ -1,2 +1,15 @@
-@name hello
-GET http://localhost:3333
+# @name get-prompts
+GET http://localhost:3333/prompts
+
+###
+
+# @name upload
+POST http://localhost:3333/videos
+Content-Type: multipart/form-data; boundary=----WebkitFormBoundary7MA4YWxKTrZu8gW
+
+------WebkitFormBoundary7MA4YWxKTrZu8gW
+Content-Disposition: form-data; name="file"; filename="example.mp3"
+Content-Type: audio/mpeg
+
+< ./example.mp3
+------WebkitFormBoundary7MA4YWxKTrZu8gW--

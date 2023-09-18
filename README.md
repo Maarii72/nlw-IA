@@ -1,4 +1,7 @@
-# nlw-IA
+# 💻 Projeto
+Aplicação que possibilita realizar upload de videos e por meio de IA, criar automaticamente títulos chamativos e descrições com um boa indexação.
+
+## nlw-IA
 ```pnpm run dev```
 ## [pnpm instalação:](https://pnpm.io/pt/installation)
 ```npm install -g pnpm```
@@ -89,4 +92,10 @@ visualizar no BD ```pnpm prisma studio```
 ### Dependências de Produção: 
 Rotas HTTP
 ```pnpm i fastify```
+
+instalar pacote [Fastify](https://github.com/fastify/fastify-multipart)
+```pnpm i @fastify/multipart```
+
+### Biblioteca para validação de ID
+```pnpm i zod```
 
